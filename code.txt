@@ -1,4 +1,4 @@
 echo off
 color 02
-TITLE Never Gonna Give You Up
+TITLE Never Gonna Give You Up                                                                                                                                                       
 mode con: cols=70 lines=37 && curl ascii.live/rick
