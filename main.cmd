@@ -3,6 +3,7 @@ setlocal enabledelayedexpansion
 color 02
 cls
 TITLE System Boot - Secure Terminal
+mode con: cols=70 lines=37
 
 :: Matrix-style "hacking" rain effect
 for /L %%i in (1,1,100) do (
@@ -28,6 +29,5 @@ cls
 
 :: Rickroll time
 TITLE Never Gonna Give You Up
-mode con: cols=70 lines=37
 curl ascii.live/rick
 pause
