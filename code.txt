@@ -1,10 +1,33 @@
 @echo off
 setlocal enabledelayedexpansion
-set "long=                                                                                                                                                      "
 color 02
 cls
-echo Loading something cool...
-ping 127.0.0.1 -n 10 > nul
-TITLE Never Gonna Give You Up %long%
+TITLE System Boot - Secure Terminal
+
+:: Matrix-style "hacking" rain effect
+for /L %%i in (1,1,100) do (
+    set "line="
+    for /L %%j in (1,1,70) do (
+        set /a "rand=!random! %% 2"
+        if !rand! == 0 (
+            set "char=1"
+        ) else (
+            set "char=0"
+        )
+        set "line=!line!!char!"
+    )
+    echo !line!
+    ping 127.0.0.1 -n 1 >nul
+)
+
+:: Dramatic pause
+echo.
+echo Decrypting hidden archive...
+ping 127.0.0.1 -n 3 >nul
+cls
+
+:: Rickroll time
+TITLE Never Gonna Give You Up
 mode con: cols=70 lines=37
 curl ascii.live/rick
+pause
