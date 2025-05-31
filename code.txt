@@ -4,8 +4,7 @@ set "long=                                                                      
 color 02
 cls
 echo Loading something cool...
+ping 127.0.0.1 -n 10 > nul
 TITLE Never Gonna Give You Up %long%
-
-timeout /nobreak /t 3 > nul
 mode con: cols=70 lines=37
 curl ascii.live/rick
