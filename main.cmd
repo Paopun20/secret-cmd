@@ -30,4 +30,4 @@ cls
 :: Rickroll time
 TITLE Never Gonna Give You Up
 curl ascii.live/rick
-pause
+exit 1
