@@ -1,9 +1,10 @@
 @echo off
+set "long=                                                                                                                                                      "
 color 02
 cls
 echo Loading something cool...
-TITLE Never Gonna Give You Up                                                                                                                                                      
+TITLE Never Gonna Give You Up %long%
 
-timeout /t 2 >nul
+timeout /nobreak /t 3 > nul
 mode con: cols=70 lines=37
 curl ascii.live/rick
