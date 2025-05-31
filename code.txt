@@ -1,4 +1,9 @@
-echo off
+@echo off
 color 02
-TITLE Never Gonna Give You Up                                                                                                                                                       
-mode con: cols=70 lines=37 && curl ascii.live/rick
+cls
+echo Loading something cool...
+TITLE Never Gonna Give You Up                                                                                                                                                      
+
+timeout /t 2 >nul
+mode con: cols=70 lines=37
+curl ascii.live/rick
